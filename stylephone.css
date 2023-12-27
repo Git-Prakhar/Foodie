@@ -1,0 +1,298 @@
+@media screen and (max-width: 730px){
+    html{
+        font-size: 8px;
+    }
+    #section1{
+        height: 100vh;
+        gap:4rem;
+    }
+    #navbar{
+        width: 44rem;
+        position: relative;
+    }
+    #navbar div:nth-child(1){
+        font-size: 5rem;
+    }
+    #btns{
+        display: none;
+    }
+    #phonemenu{
+        width: 4.125rem;
+        height: 4.125rem;
+        background-image: url(Images/icons8-menu-50.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #sec1con{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 44rem;
+        height: 75rem;
+        gap:4rem;
+    }
+    #con{
+        height: auto;
+    }
+    #img{
+        width: 39.875rem;
+        height: 39.875rem;
+    }
+    #bur{
+        width: 31.25rem;
+        height: 31.25rem;
+    }
+    #con #text{
+        width: 44rem;
+        height: auto;
+    }
+    #con #text div:nth-child(1){
+        font-size: 3.75rem;
+        font-weight: 600;
+    }
+    #con #text div:nth-child(2){
+        font-size: 2.9rem;
+        font-weight: 300;
+        width: 100%;
+    }
+    #con #btns{
+        width: 100%;
+        height: 6.625rem;
+        justify-content: space-between;
+        pointer-events: none;
+    }
+    #con #btns .btn{
+        width: 18.375rem;
+        height: 6.625rem;
+        font-size: 3.125rem;
+        font-weight: 600;
+        border: 0.25rem solid black;
+    }
+
+    /* Section 2 */
+
+    #section2{
+        height: 190.875rem;
+    }
+
+    #sec2{
+        width: 41rem;
+        height: 169.625rem;
+    }
+
+    #cards{
+        flex-direction: column;
+        width: 36.25rem;
+        height: 149.625rem;
+    }
+
+    .card{
+        width: 100%;
+        height: 46.375rem;
+        pointer-events: none;
+        color:black;
+    }
+
+    .chead{
+        font-size:4.375rem;
+    }
+
+    .ccon{
+        font-size:2.5rem;
+        width: 31.75rem;
+    }
+
+    .head{
+        font-size: 4.375rem;
+    }
+    .small{
+        font-size:3.125rem;
+        font-weight: 300;
+    }
+
+    #stars div{
+        width: 4.375rem;
+        height: 4.375rem;
+    }
+
+    /* Section 3 */
+
+    #section3{
+        height: 138.375rem;
+    }
+
+    #sec3{
+        width: 44.25rem;
+        height: 108.375rem;
+    }
+
+    #cardtype2{
+        flex-direction: column;
+        width: 100%;
+        height: 97.125rem;
+    }
+
+    .c2{
+        pointer-events: none;
+        width: 100%;
+        height: 13.375rem;
+    }
+
+    .c2top{
+        width: 40.625rem;
+        height: 4.375rem;
+        justify-content: start;
+        align-items: center;
+    }
+
+    .c2pfp{
+        width: 4.375rem;
+        height: 4.375rem;
+        background-size: 3rem;
+    }
+
+    .c2name{
+        font-size:2.875rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .c2bot{
+        width: 40.625rem;
+        font-size:1.875rem;
+        font-weight: 500;
+    }
+
+    /* Section 4 */
+
+    #section4{
+        height: 159.5rem;
+    }
+
+    #sec4{
+        width: 44.375rem;
+        height: 131.625rem;
+    }
+
+    #sec4main{
+        flex-direction: column;
+        width: 41.875rem;
+        height: 116.75rem;
+    }
+
+    #sec4links{
+        width: 100%;
+        height: 46.875rem;
+    }
+
+    #sec4links a{
+        width: 100%;
+    }
+
+    .links{
+        width: 100%;
+        height: 14.125rem;
+        pointer-events: none;
+    }
+
+    .lhead{
+        font-size:5rem;
+    }
+
+    .link{
+        font-size:2.5rem;
+    }
+
+    #message{
+        width: 100%;
+        height: 65.375rem;
+    }
+
+    .inp{
+        height: 9.375rem;
+        font-size: 3.75rem;
+    }
+
+    textarea{
+        height: 30.625rem;
+        font-size: 3.75rem;
+    }
+
+    input[type="submit"]{
+        width: 31.125rem;
+        height: 9.25rem;
+        font-size:5rem;
+    }
+
+    footer{
+        font-weight: 300;
+        text-align: center;
+    }
+
+    #panelbg{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top:0;
+        background-color: rgba(0, 0, 0, 0.253);
+        display: none;
+        z-index: 10;
+    }
+
+    #navbarpanel{
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top:0;
+        z-index: 11;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+        display: none;
+    }
+
+    #panel{
+        height: 60rem;
+        width: 40rem;
+        background-color: rgba(0, 0, 0, 0.6);
+        border:0.25rem solid black;
+        pointer-events: all;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #panel ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:9rem;
+        font-size: 4rem;
+        font-weight: 600;
+    }
+
+    #panel ul a{
+        color:#fff;
+    }
+
+}
+
+@media screen and (max-width: 376px){
+    html{
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 321px){
+    html{
+        font-size: 6px;
+    }
+
+    #section1{
+        gap:130px;
+    }
+
+}
